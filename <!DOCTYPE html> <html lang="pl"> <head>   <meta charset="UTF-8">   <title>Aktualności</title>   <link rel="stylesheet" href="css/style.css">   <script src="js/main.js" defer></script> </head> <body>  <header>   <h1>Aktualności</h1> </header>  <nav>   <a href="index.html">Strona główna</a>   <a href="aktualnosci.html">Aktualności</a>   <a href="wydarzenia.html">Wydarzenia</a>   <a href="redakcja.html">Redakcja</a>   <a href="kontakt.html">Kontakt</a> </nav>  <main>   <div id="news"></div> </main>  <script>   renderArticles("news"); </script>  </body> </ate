@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Aktualności</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>Aktualności</h1>
+</header>
+
+<nav>
+  <a href="index.html">Strona główna</a>
+  <a href="aktualnosci.html">Aktualności</a>
+  <a href="wydarzenia.html">Wydarzenia</a>
+  <a href="redakcja.html">Redakcja</a>
+  <a href="kontakt.html">Kontakt</a>
+</nav>
+
+<main>
+  <div id="news"></div>
+</main>
+
+<script>
+  renderArticles("news");
+</script>
+
+</body>
+</html>
