@@ -1,0 +1,13 @@
+GazetkaSzkolnaPSP1/
+│
+├── index.html          # Strona główna
+├── aktualnosci.html    # Podstrona z aktualnościami
+├── wydarzenia.html     # Podstrona z wydarzeniami
+├── redakcja.html       # Panel redakcji (dodawanie artykułów)
+├── kontakt.html        # Kontakt
+│
+├── css/
+│   └── style.css       # Wspólny styl dla całej gazetki
+│
+└── js/
+    └── main.js         # Logika dodawania artykułów (localStorage)
